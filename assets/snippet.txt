@@ -1,0 +1,19 @@
+<model-viewer src="earbud.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="spruit_sunrise_1k_HDR.hdr" skybox-image="spruit_sunrise_1k_HDR.hdr">
+    <button class="Hotspot" slot="hotspot-1" data-position="-1.9116354735748269m 3.1887288943898406m 1.5134286230070624m" data-normal="0.016276453300124977m -0.011134365840063387m 0.9998055325738644m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Speaker</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-1.6189451361498994m 3.6870307066695296m 1.0800648865402285m" data-normal="-0.3362785452571529m -0.6569353096667985m 0.6747982949835608m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Earpiece</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-1.0123539419898493m 2.675435871427791m 2.361623725875746m" data-normal="0.02127140748297829m -0.016799849432409947m 0.9996325786421437m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Brand</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-1.6523961968177234m 2.7341425264237516m 2.3701351270123014m" data-normal="0.016276453300124977m -0.011134365840063387m 0.9998055325738644m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Front</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-1.3418496728345115m 1.9767427680370835m 1.691317943448664m" data-normal="0.009799612732513873m 0.012876460126372483m 0.9998690736115939m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Back</div>
+    </button>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
