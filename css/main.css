@@ -83,6 +83,58 @@
     display: none;
   }
 }
+#hero {
+  height: 595px;
+}
+
+#brand {
+  height: 132px;
+  margin-top: 233px;
+}
+
+#heroslogan {
+  height: 64px;
+}
+
+#button {
+  height: 31px;
+}
+
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 770px;
+  }
+  #brand {
+    height: 180px;
+    margin-top: 215px;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: -86px;
+  }
+  #button {
+    height: 48px;
+    margin-top: -99px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hero {
+    height: 800px;
+  }
+  #brand {
+    height: 180px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: -54px;
+  }
+  #button {
+    height: 48px;
+    margin-top: -84px;
+  }
+}
 #about-us {
   margin-bottom: 40px;
 }

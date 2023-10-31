@@ -50,7 +50,15 @@ body, p, h1, h2, h3, h4, h5 {
  }
 
  .box3 {
-   background-color: #454545;
+   background-color: #717171;
+   color: rgb(27, 27, 27);
+   padding: 20px;
+   text-align: center;
+   margin-bottom:10px;
+ }
+
+ .box4 {
+   background-color: #4c4c4c;
    color: rgb(27, 27, 27);
    padding: 20px;
    text-align: center;
