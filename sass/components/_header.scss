@@ -1,0 +1,100 @@
+#banner {
+    width: 100%;
+    height: 59px;
+}
+
+#sale {
+    height: 30px;
+    margin-top: -10px;
+}
+
+#main-header {
+    width: 100%;
+    height: 75px;
+}
+
+#logo {
+    height: 49px;
+    margin-top: -7px;
+}
+
+#nav {
+    display: none;
+}
+
+#icons {
+    display: none;
+}
+
+#burger {
+    display: block;
+    height: 34px;
+}
+
+@media screen and (min-width:768px) {
+    #banner {
+     height: 59px;
+    }
+
+    #sale {
+    height: 30px;
+    margin-top: -10px;
+    }
+
+    #main-header {
+        height: 75px;
+    }
+
+    #logo {
+        height: 49px;
+        margin-top: -5px;
+    }
+
+    #nav {
+        display: block;
+        height: 27px;
+    }
+
+    #icons {
+        display: block;
+    }
+
+    #burger {
+        display: none;
+    }
+ }
+
+@media screen and (min-width:1920px) {
+   #banner {
+    height: 59px;
+    
+   }
+
+   #sale {
+    height: 30px;
+    margin-top: -10px;
+   }
+
+   #main-header {
+    height: 75px;
+   }
+
+   #logo {
+    height: 55px;
+    margin-top: -10px;
+   }
+
+   #nav {
+    display: block;
+    height: 35px;
+}
+
+    #icons {
+    display: block;
+}
+
+    #burger {
+    display: none;
+}
+}
+
