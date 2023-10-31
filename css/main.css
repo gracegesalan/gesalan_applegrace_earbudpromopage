@@ -83,8 +83,7 @@
     display: none;
   }
 }
-<<<<<<< Updated upstream
-=======
+
 #hero {
   height: 595px;
 }
@@ -137,6 +136,7 @@
     margin-top: -84px;
   }
 }
+
 #slogan {
   height: 95px;
 }
@@ -164,7 +164,7 @@
     margin-top: 11px;
   }
 }
->>>>>>> Stashed changes
+
 #about-us {
   margin-bottom: 40px;
 }
