@@ -18,16 +18,16 @@
     height: 64px;
 
     font-family: 'Montserrat', sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     text-align: left;
-    padding: 0px;
+    padding: 3px;
 
    
 }
 
 #button {
     height: 31px;
-
+    border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     padding: 3px;
@@ -43,7 +43,7 @@
 
     #brand {
         height: 91px;
-        margin-top: 162px;
+        margin-top: 265px;
         margin-bottom: 0px;
 
         font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -64,10 +64,10 @@
     #button {
         height: 35px;
         margin-top: 20px;
-
+        border-radius: 10px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 23px;
-        padding: 2px;
+        font-size: 20px;
+        padding: 4px;
     }
 
 }
@@ -91,7 +91,7 @@
 
     #heroslogan {
         height: 48px;
-        margin-top: 38px;
+        margin-top: -75px;
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         padding: 6px;
@@ -100,11 +100,11 @@
 
     #button {
         height: 48px;
-        margin-top: 20px;
-
+        margin-top: -69px;
+        border-radius: 20px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 35px;
-        padding: 0px;
+        font-size: 30px;
+        padding: 4px;
     }
 
     }
