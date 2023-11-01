@@ -1,0 +1,43 @@
+
+#tunein {
+    height: 486px;
+}
+
+#because {
+    height: 93px;
+    margin-top: 81px;
+}
+
+#tune {
+    height: 203px;
+}
+
+@media screen and (min-width:768px) {
+    #tunein {
+        height: 500px;
+    }
+
+    #because {
+        height: 93px;
+        margin-top: 217px;
+    }
+
+    #tune {
+        height: 81px;
+    }
+
+}
+@media screen and (min-width:1920px) {
+    #tunein {
+        height: 600px;
+    }
+
+    #because {
+        height: 178px;
+        margin-top: 195px;
+    }
+
+    #tune {
+        height: 137px;
+    }
+}
