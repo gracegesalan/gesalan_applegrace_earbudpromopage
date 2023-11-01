@@ -2,36 +2,53 @@
 
 #hero {
     height: 595px;
+    padding: 0px;
 }
 
 #brand {
 
     height: 85px;
-    margin-top: 279px;
+    margin-top: 127px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 83px;
     color: white;
     padding: 0px;
 
+    grid-row: 1/1;
+
 }
 
 #heroslogan {
     height: 64px;
-
+    margin-top: 209px;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: left;
     padding: 3px;
 
-   
+    grid-row: 1/1;
 }
 
 #button {
     height: 31px;
     border-radius: 10px;
+    margin-top: 294px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     padding: 3px;
+
+    grid-row: 1/1;
+}
+
+#heroimage {
+    height: 595px;
+    width: 100vw;
+    object-fit: cover;
+    
+    
+    
+    grid-row: 1/1;
 }
 
 
@@ -40,35 +57,59 @@
 
     #hero {
         height: 600px;
+        padding: 0px;
     }
 
     #brand {
         height: 91px;
-        margin-top: 265px;
+        margin-top: 179px;
         margin-bottom: 0px;
         color: white;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 100px;
         padding: 0px;
 
+        grid-row: 1/1;
+
     }
 
     #heroslogan {
         height: 48px;
-        margin-top: 38px;
+        margin-top: 268px;
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
+        color: white;
         padding: 6px;
+
+        grid-row: 1/1;
 
     }
 
     #button {
         height: 35px;
-        margin-top: 20px;
+        margin-top: 320px;
         border-radius: 10px;
         font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         padding: 4px;
+
+        grid-row: 1/1;
+
+    }
+
+    #button:hover {
+        background-color: darkblue;
+        color: white;
+    }
+
+    #heroimage {
+        height: 600px;
+        width: 100vw;
+        object-fit: cover;
+        
+        
+        
+        grid-row: 1/1;
     }
 
 }
@@ -77,36 +118,59 @@
 
     #hero {
         height: 800px;
+       background-size: 100% auto;
+       padding: 0px;
     }
 
     #brand {
         height: 180px;
-        margin-top: 300px;
+        margin-top: 286px;
         margin-bottom: 0px;
         color: white;
         font-family: 'Yanone Kaffeesatz', sans-serif;
         font-size: 160px;
         padding: 0px;
 
+        grid-row: 1/1;
+
+    
+
     }
 
     #heroslogan {
         height: 48px;
-        margin-top: -75px;
+        margin-top: 434px;
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
+        color: white;
         padding: 6px;
+
+        grid-row: 1/1;
 
     }
 
     #button {
         height: 48px;
-        margin-top: -69px;
+        margin-top: 506px;
         border-radius: 20px;
         font-family: 'Montserrat', sans-serif;
         font-size: 30px;
         padding: 4px;
+
+        grid-row: 1/1;
     }
+
+    #heroimage {
+        height: 800px;
+        width: 100vw;
+        object-fit: cover;
+        
+        
+        
+        grid-row: 1/1;
+    }
+
+    
 
     }
 
