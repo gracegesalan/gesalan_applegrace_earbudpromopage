@@ -6,6 +6,10 @@
 #sale {
   height: 30px;
   margin-top: -10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0px;
 }
 
 #main-header {
@@ -38,6 +42,10 @@
   #sale {
     height: 30px;
     margin-top: -10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0px;
   }
   #main-header {
     height: 75px;
@@ -64,6 +72,10 @@
   #sale {
     height: 30px;
     margin-top: -10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+    padding: 0px;
   }
   #main-header {
     height: 75px;
@@ -83,21 +95,41 @@
     display: none;
   }
 }
+
 #hero {
   height: 595px;
 }
 
 #brand {
+
+  height: 85px;
+  margin-top: 279px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 83px;
+  padding: 0px;
+
   height: 132px;
   margin-top: 233px;
+
 }
 
 #heroslogan {
   height: 64px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  text-align: left;
+  padding: 0px;
+
 }
 
 #button {
   height: 31px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 3px;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -105,16 +137,34 @@
     height: 770px;
   }
   #brand {
+
+    height: 92px;
+    margin-top: 329px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 100px;
+    padding: 6px;
+
     height: 180px;
     margin-top: 215px;
+
   }
   #heroslogan {
     height: 48px;
     margin-top: -86px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    padding: 0px;
+
   }
   #button {
     height: 48px;
     margin-top: -99px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 11px;
+
   }
 }
 @media screen and (min-width: 1920px) {
@@ -125,14 +175,29 @@
     height: 180px;
     margin-top: 300px;
     margin-bottom: 0px;
+
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 160px;
+    padding: 0px;
+
   }
   #heroslogan {
     height: 48px;
     margin-top: -54px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    padding: 6px;
+
   }
   #button {
     height: 48px;
     margin-top: -84px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    padding: 0px;
+
   }
 }
 #slogan {
@@ -354,6 +419,7 @@
     margin-top: 178px;
   }
 }
+
 #about-us {
   margin-bottom: 40px;
 }
