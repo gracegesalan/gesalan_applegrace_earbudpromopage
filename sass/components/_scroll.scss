@@ -5,8 +5,9 @@
 
     #scrolltext {
         margin-top: 390px;
-        color: white;
-    }}
+        
+    }
+}
 
 
 @media screen and (min-width:768px) {
@@ -16,7 +17,7 @@
 
     #scrolltext {
         margin-top: 350px;
-        color: white;
+        
     }
 }
 @media screen and (min-width:1920px) {
@@ -25,11 +26,6 @@
     }
 
     #scrolltext {
-
         margin-top: 300px;
-
-        margin-top: 340px;
-
-        color: white;
     }
 }

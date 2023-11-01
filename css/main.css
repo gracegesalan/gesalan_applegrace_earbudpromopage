@@ -167,7 +167,6 @@
 }
 #scroll #scrolltext {
   margin-top: 390px;
-  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,7 +175,6 @@
   }
   #scrolltext {
     margin-top: 350px;
-    color: white;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -185,8 +183,6 @@
   }
   #scrolltext {
     margin-top: 300px;
-    margin-top: 340px;
-    color: white;
   }
 }
 #tunein {
@@ -247,6 +243,30 @@
     height: 600px;
   }
   #xraytext {
+    margin-top: 307px;
+  }
+}
+#hotspot {
+  height: 900px;
+}
+
+#hotspottext {
+  margin-top: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  #hotspot {
+    height: 500px;
+  }
+  #hotspottext {
+    margin-top: 260px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hotspot {
+    height: 600px;
+  }
+  #hotspottext {
     margin-top: 307px;
   }
 }
