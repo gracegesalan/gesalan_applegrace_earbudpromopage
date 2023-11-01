@@ -170,7 +170,6 @@
   color: white;
 }
 
-
 @media screen and (min-width: 768px) {
   #scroll {
     height: 700px;
@@ -185,8 +184,8 @@
     height: 600px;
   }
   #scrolltext {
-
     margin-top: 300px;
+    margin-top: 340px;
     color: white;
   }
 }
@@ -227,12 +226,30 @@
     height: 137px;
   }
 }
-
-    margin-top: 340px;
-    color: white;
-  }
+#xray {
+  height: 900px;
 }
 
+#xraytext {
+  margin-top: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  #xray {
+    height: 500px;
+  }
+  #xraytext {
+    margin-top: 260px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #xray {
+    height: 600px;
+  }
+  #xraytext {
+    margin-top: 307px;
+  }
+}
 #about-us {
   margin-bottom: 40px;
 }

@@ -1,0 +1,28 @@
+
+#xray {
+    height: 900px;
+}
+
+#xraytext {
+    margin-top: 400px;
+}
+
+@media screen and (min-width:768px) {
+    #xray {
+        height: 500px;
+    }
+
+    #xraytext {
+        margin-top: 260px;
+    }
+
+}
+@media screen and (min-width:1920px) {
+    #xray {
+        height: 600px;
+    }
+
+    #xraytext {
+        margin-top: 307px;
+    }
+}
