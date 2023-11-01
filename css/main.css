@@ -6,6 +6,10 @@
 #sale {
   height: 30px;
   margin-top: -10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 0px;
 }
 
 #main-header {
@@ -38,6 +42,10 @@
   #sale {
     height: 30px;
     margin-top: -10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0px;
   }
   #main-header {
     height: 75px;
@@ -64,6 +72,10 @@
   #sale {
     height: 30px;
     margin-top: -10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 21px;
+    letter-spacing: 2px;
+    padding: 0px;
   }
   #main-header {
     height: 75px;
@@ -83,6 +95,308 @@
     display: none;
   }
 }
+<<<<<<< Updated upstream
+=======
+#hero {
+  height: 595px;
+}
+
+#brand {
+  height: 85px;
+  margin-top: 279px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 83px;
+  padding: 0px;
+}
+
+#heroslogan {
+  height: 64px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  text-align: left;
+  padding: 0px;
+}
+
+#button {
+  height: 31px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 770px;
+  }
+  #brand {
+    height: 92px;
+    margin-top: 329px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 100px;
+    padding: 6px;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: -86px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    padding: 0px;
+  }
+  #button {
+    height: 48px;
+    margin-top: -99px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 11px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hero {
+    height: 800px;
+  }
+  #brand {
+    height: 180px;
+    margin-top: 300px;
+    margin-bottom: 0px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 160px;
+    padding: 0px;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: -54px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    padding: 6px;
+  }
+  #button {
+    height: 48px;
+    margin-top: -84px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    padding: 0px;
+  }
+}
+#slogan {
+  height: 95px;
+}
+
+#sectionslogan {
+  height: 68px;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #slogan {
+    height: 95px;
+  }
+  #sectionslogan {
+    height: 61px;
+    margin-top: 12px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #slogan {
+    height: 99px;
+  }
+  #sectionslogan {
+    height: 78px;
+    margin-top: 11px;
+  }
+}
+#scroll {
+  height: 800px;
+}
+#scroll #scrolltext {
+  margin-top: 390px;
+}
+
+@media screen and (min-width: 768px) {
+  #scroll {
+    height: 700px;
+  }
+  #scrolltext {
+    margin-top: 350px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #scroll {
+    height: 600px;
+  }
+  #scrolltext {
+    margin-top: 300px;
+  }
+}
+#tunein {
+  height: 486px;
+}
+
+#because {
+  height: 93px;
+  margin-top: 81px;
+}
+
+#tune {
+  height: 203px;
+}
+
+@media screen and (min-width: 768px) {
+  #tunein {
+    height: 500px;
+  }
+  #because {
+    height: 93px;
+    margin-top: 217px;
+  }
+  #tune {
+    height: 81px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #tunein {
+    height: 600px;
+  }
+  #because {
+    height: 178px;
+    margin-top: 195px;
+  }
+  #tune {
+    height: 137px;
+  }
+}
+#xray {
+  height: 900px;
+}
+
+#xraytext {
+  margin-top: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  #xray {
+    height: 500px;
+  }
+  #xraytext {
+    margin-top: 260px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #xray {
+    height: 600px;
+  }
+  #xraytext {
+    margin-top: 307px;
+  }
+}
+#hotspot {
+  height: 900px;
+}
+
+#hotspottext {
+  margin-top: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  #hotspot {
+    height: 500px;
+  }
+  #hotspottext {
+    margin-top: 260px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hotspot {
+    height: 600px;
+  }
+  #hotspottext {
+    margin-top: 307px;
+  }
+}
+#experience {
+  height: 350px;
+}
+
+#comfort {
+  height: 100px;
+  margin-top: 30px;
+}
+
+#where {
+  height: 132px;
+}
+
+@media screen and (min-width: 768px) {
+  #experience {
+    height: 400px;
+  }
+  #comfort {
+    height: 69px;
+    margin-top: 102px;
+  }
+  #where {
+    height: 132px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #experience {
+    height: 500px;
+  }
+  #comfort {
+    height: 96px;
+    margin-top: 127px;
+  }
+  #where {
+    height: 176px;
+  }
+}
+#footer {
+  height: 224px;
+}
+
+#footerlogo {
+  height: 71px;
+}
+
+#footernav {
+  height: 28px;
+}
+
+#rights {
+  height: 20px;
+  margin-top: 62px;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    height: 280px;
+  }
+  #footerlogo {
+    height: 108px;
+  }
+  #footernav {
+    height: 45px;
+  }
+  #rights {
+    height: 20px;
+    margin-top: 79px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #footer {
+    height: 430px;
+  }
+  #footerlogo {
+    height: 134px;
+  }
+  #footernav {
+    height: 57px;
+  }
+  #rights {
+    height: 57px;
+    margin-top: 178px;
+  }
+}
+>>>>>>> Stashed changes
 #about-us {
   margin-bottom: 40px;
 }
