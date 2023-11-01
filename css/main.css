@@ -270,6 +270,90 @@
     margin-top: 307px;
   }
 }
+#experience {
+  height: 350px;
+}
+
+#comfort {
+  height: 100px;
+  margin-top: 30px;
+}
+
+#where {
+  height: 132px;
+}
+
+@media screen and (min-width: 768px) {
+  #experience {
+    height: 400px;
+  }
+  #comfort {
+    height: 69px;
+    margin-top: 102px;
+  }
+  #where {
+    height: 132px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #experience {
+    height: 500px;
+  }
+  #comfort {
+    height: 96px;
+    margin-top: 127px;
+  }
+  #where {
+    height: 176px;
+  }
+}
+#footer {
+  height: 224px;
+}
+
+#footerlogo {
+  height: 71px;
+}
+
+#footernav {
+  height: 28px;
+}
+
+#rights {
+  height: 20px;
+  margin-top: 62px;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    height: 280px;
+  }
+  #footerlogo {
+    height: 108px;
+  }
+  #footernav {
+    height: 45px;
+  }
+  #rights {
+    height: 20px;
+    margin-top: 79px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #footer {
+    height: 430px;
+  }
+  #footerlogo {
+    height: 134px;
+  }
+  #footernav {
+    height: 57px;
+  }
+  #rights {
+    height: 57px;
+    margin-top: 178px;
+  }
+}
 #about-us {
   margin-bottom: 40px;
 }
