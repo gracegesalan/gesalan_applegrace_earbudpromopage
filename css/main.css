@@ -83,7 +83,6 @@
     display: none;
   }
 }
-
 #hero {
   height: 595px;
 }
@@ -136,7 +135,6 @@
     margin-top: -84px;
   }
 }
-
 #slogan {
   height: 95px;
 }
@@ -164,9 +162,15 @@
     margin-top: 11px;
   }
 }
+#scroll {
+  height: 800px;
+}
+#scroll #scrolltext {
+  margin-top: 390px;
+  color: white;
+}
 
-<<<<<<< Updated upstream
-=======
+
 @media screen and (min-width: 768px) {
   #scroll {
     height: 700px;
@@ -181,6 +185,7 @@
     height: 600px;
   }
   #scrolltext {
+
     margin-top: 300px;
     color: white;
   }
@@ -222,7 +227,12 @@
     height: 137px;
   }
 }
->>>>>>> Stashed changes
+
+    margin-top: 340px;
+    color: white;
+  }
+}
+
 #about-us {
   margin-bottom: 40px;
 }
