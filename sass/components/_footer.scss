@@ -1,0 +1,56 @@
+
+
+#footer {
+    height: 224px;
+}
+
+#footerlogo {
+    height: 71px;
+}
+
+#footernav {
+    height: 28px;
+}
+
+#rights {
+    height: 20px;
+    margin-top: 62px;
+}
+
+@media screen and (min-width:768px) {
+    #footer {
+        height: 280px;
+    }
+
+    #footerlogo {
+        height: 108px;
+    }
+
+    #footernav {
+        height: 45px;
+    }
+
+    #rights {
+        height: 20px;
+        margin-top: 79px;
+    }
+
+}
+@media screen and (min-width:1920px) {
+    #footer {
+        height: 430px;
+    }
+
+    #footerlogo {
+        height: 134px;
+    }
+
+    #footernav {
+        height: 57px;
+    }
+
+    #rights {
+        height: 57px;
+        margin-top: 178px;
+    }
+}
