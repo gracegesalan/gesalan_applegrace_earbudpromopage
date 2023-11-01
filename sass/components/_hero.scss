@@ -12,9 +12,6 @@
     font-size: 83px;
     padding: 0px;
 
-    height: 132px;
-    margin-top: 233px;
-
 }
 
 #heroslogan {
@@ -36,71 +33,45 @@
     padding: 3px;
 }
 
-   
-}
-
-
 
 
 @media screen and (min-width:768px) {
 
-
-}
-@media screen and (min-width:1920px) {
-    
-
     #hero {
-        height: 770px;
+        height: 600px;
     }
 
     #brand {
-        height: 92px;
-       margin-top: 329px;
-       font-family: 'Yanone Kaffeesatz', sans-serif;
-       font-size: 100px;
-       padding: 6px;
+        height: 91px;
+        margin-top: 162px;
+        margin-bottom: 0px;
+
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 100px;
+        padding: 0px;
+
     }
 
     #heroslogan {
         height: 48px;
-        margin-top: -86px;
+        margin-top: 38px;
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
-        padding: 0px;
+        padding: 6px;
+
     }
 
     #button {
-        height: 48px;
-        margin-top: -99px;
+        height: 35px;
+        margin-top: 20px;
+
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-        padding: 11px;
+        font-size: 23px;
+        padding: 2px;
     }
 
 }
-@media screen and (min-width:1920px) {
 
-    #hero {
-        height: 770px;
-    }
-
-    #brand {
-        height: 180px;
-       margin-top: 215px;
-    }
-
-    #heroslogan {
-        height: 48px;
-        margin-top: -86px;
-       
-    }
-
-    #button {
-        height: 48px;
-        margin-top: -99px;
-    }
-
-}
 @media screen and (min-width:1920px) {
 
     #hero {
@@ -120,8 +91,7 @@
 
     #heroslogan {
         height: 48px;
-        margin-top: -54px;
-
+        margin-top: 38px;
         font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         padding: 6px;
@@ -130,7 +100,7 @@
 
     #button {
         height: 48px;
-        margin-top: -84px;
+        margin-top: 20px;
 
         font-family: 'Montserrat', sans-serif;
         font-size: 35px;
@@ -139,4 +109,3 @@
 
     }
 
-}
