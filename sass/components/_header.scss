@@ -40,8 +40,9 @@
 }
 
 @media screen and (min-width:768px) {
+
     #banner {
-     height: 59px;
+        height: 59px;
     }
 
     #sale {
@@ -88,10 +89,12 @@
 
    #sale {
     height: 30px;
-    margin-top: -10px;
+    margin-top: -2px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 21px;
-    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
     padding: 0px;
    }
 
@@ -103,6 +106,8 @@
    #logo {
     height: 55px;
     margin-top: -10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 65px;
    }
 
    #nav {
