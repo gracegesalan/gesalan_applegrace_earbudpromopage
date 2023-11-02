@@ -326,8 +326,10 @@
 #scroll {
   height: 800px;
 }
-#scroll #scrolltext {
+
+#scrolltext {
   margin-top: 390px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -336,6 +338,7 @@
   }
   #scrolltext {
     margin-top: 350px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -343,7 +346,8 @@
     height: 600px;
   }
   #scrolltext {
-    margin-top: 300px;
+    margin-top: 247px;
+    font-size: 30px;
   }
 }
 #tunein {
