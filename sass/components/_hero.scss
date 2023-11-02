@@ -13,7 +13,7 @@
     font-size: 83px;
     color: white;
     padding: 0px;
-
+    margin-left: 7px;
     grid-row: 1/1;
 
 }
@@ -36,9 +36,14 @@
     margin-top: 294px;
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
-    padding: 3px;
+    padding: 5px;
+    
 
     grid-row: 1/1;
+}
+
+#button a {
+    text-decoration: none;
 }
 
 #heroimage {
@@ -97,9 +102,13 @@
 
     }
 
+    #button a {
+        text-decoration: none;
+    }
+
     #button:hover {
-        background-color: darkblue;
-        color: white;
+        background-color: #002916;
+        
     }
 
     #heroimage {
@@ -158,6 +167,11 @@
         padding: 4px;
 
         grid-row: 1/1;
+    }
+
+    #button:hover {
+        background-color: gold;
+        
     }
 
     #heroimage {

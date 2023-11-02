@@ -47,9 +47,9 @@
 
     #sale {
     height: 30px;
-    margin-top: -10px;
+    margin-top: 4px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 500;
     color: white;
     letter-spacing: 1px;
@@ -70,6 +70,26 @@
     #nav {
         display: block;
         height: 27px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        margin-top: 12px;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 45px;
+        
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+       
     }
 
     #icons {
@@ -119,12 +139,37 @@
     height: 35px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 77px;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+nav a:hover {
+    color: gold;
+}
+
     #icons {
     display: block;
 }
 
     #shop {
         height: 35px;
+        
     }
 
     #burger {
