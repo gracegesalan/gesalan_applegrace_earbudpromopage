@@ -1,43 +1,101 @@
 
 #tunein {
     height: 486px;
+    padding: 0px;
 }
 
 #because {
     height: 93px;
-    margin-top: 81px;
+    margin-top: 146px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    grid-row: 1/1;
 }
 
 #tune {
     height: 203px;
+    margin-top: 278px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    grid-row: 1/1;
+}
+
+#background1 {
+    height: 486px;
+    width: 100vw;
+    object-fit: cover;
+    grid-row: 1/1;
 }
 
 @media screen and (min-width:768px) {
     #tunein {
         height: 500px;
+        padding: 0px;
     }
 
     #because {
         height: 93px;
         margin-top: 217px;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 35px;
+        text-align: left;
+        color: white;
+        grid-row: 1/1;
     }
 
     #tune {
         height: 81px;
+        margin-top: 365px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: left;
+        color: white;
+        grid-row: 1/1;
     }
 
+    #background1 {
+        height: 500px;
+        width: 100vw;
+        object-fit: cover;
+        grid-row: 1/1;
+    }
 }
+
+
 @media screen and (min-width:1920px) {
     #tunein {
         height: 600px;
+        padding: 0px;
     }
 
     #because {
         height: 178px;
         margin-top: 195px;
+        font-family: 'El Messiri', sans-serif;
+        font-size: 50px;
+        text-align: left;
+        color: white;
+        grid-row: 1/1;
     }
 
     #tune {
         height: 137px;
+        margin-top: 420px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        text-align: left;
+        color: white;
+        grid-row: 1/1;
+    }
+
+    #background1 {
+        height: 600px;
+        width: 100vw;
+        object-fit: cover;
+        grid-row: 1/1;
     }
 }
