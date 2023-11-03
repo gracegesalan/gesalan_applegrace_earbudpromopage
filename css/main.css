@@ -378,13 +378,6 @@
   grid-row: 1/1;
 }
 
-#background1 {
-  height: 486px;
-  width: 100vw;
-  object-fit: cover;
-  grid-row: 1/1;
-}
-
 @media screen and (min-width: 768px) {
   #tunein {
     height: 500px;
@@ -406,12 +399,6 @@
     font-size: 20px;
     text-align: left;
     color: white;
-    grid-row: 1/1;
-  }
-  #background1 {
-    height: 500px;
-    width: 100vw;
-    object-fit: cover;
     grid-row: 1/1;
   }
 }
@@ -438,11 +425,21 @@
     color: white;
     grid-row: 1/1;
   }
-  #background1 {
-    height: 600px;
-    width: 100vw;
-    object-fit: cover;
-    grid-row: 1/1;
+  #earbud1 {
+    max-width: 500%;
+    position: relative;
+    top: 50%;
+    left: 1100%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
+  #earbud2 {
+    max-width: 300%;
+    position: relative;
+    top: 30%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
   }
 }
 #xray {
