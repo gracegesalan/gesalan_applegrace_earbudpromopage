@@ -448,6 +448,7 @@
 
 #xraytext {
   margin-top: 400px;
+  font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -456,6 +457,7 @@
   }
   #xraytext {
     margin-top: 260px;
+    font-size: 30px;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -464,6 +466,7 @@
   }
   #xraytext {
     margin-top: 307px;
+    font-size: 30px;
   }
 }
 #gallery {
@@ -629,6 +632,7 @@
   }
   #hotspottext {
     margin-top: 307px;
+    font-size: 30px;
   }
 }
 #experience {
