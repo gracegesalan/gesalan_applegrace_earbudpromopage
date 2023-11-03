@@ -274,6 +274,9 @@
     padding: 4px;
     grid-row: 1/1;
   }
+  #button a {
+    color: black;
+  }
   #button:hover {
     background-color: gold;
   }
@@ -294,7 +297,7 @@
   font-family: "El Messiri", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (min-width: 768px) {
@@ -307,7 +310,7 @@
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 }
 @media screen and (min-width: 1920px) {
@@ -316,11 +319,11 @@
   }
   #sectionslogan {
     height: 78px;
-    margin-top: 0px;
+    margin-top: -14px;
     font-family: "El Messiri", sans-serif;
     font-size: 75px;
     letter-spacing: 6px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 }
 #scroll {
@@ -464,6 +467,147 @@
   }
   #xraytext {
     margin-top: 307px;
+  }
+}
+#gallery {
+  height: 750px;
+}
+
+.gall {
+  border-radius: 20px;
+  box-shadow: 0 4px 9px rgb(255, 255, 255);
+}
+
+#gall1 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+#gall2 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+#gall3 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall3 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+@media screen and (min-width: 768px) {
+  #gallery {
+    height: 230px;
+  }
+  .gall {
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgb(255, 255, 255);
+  }
+  #gall1 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #gall2 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #gall3 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #gallery {
+    height: 390px;
+  }
+  .gall {
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgb(255, 255, 255);
+  }
+  #gall1 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  #gall2 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  #gall3 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
   }
 }
 #hotspot {
