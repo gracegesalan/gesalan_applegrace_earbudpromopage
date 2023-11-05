@@ -185,6 +185,7 @@
 
 #button a {
   text-decoration: none;
+  color: black;
 }
 
 #heroimage {
@@ -229,6 +230,7 @@
   }
   #button a {
     text-decoration: none;
+    color: black;
   }
   #button:hover {
     background-color: #002916;
@@ -293,7 +295,7 @@
 
 #sectionslogan {
   height: 68px;
-  margin-top: 15px;
+  margin-top: -4px;
   font-family: "El Messiri", sans-serif;
   font-size: 16px;
   letter-spacing: 2px;
@@ -306,7 +308,7 @@
   }
   #sectionslogan {
     height: 61px;
-    margin-top: 12px;
+    margin-top: -9px;
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     letter-spacing: 2px;
@@ -319,7 +321,7 @@
   }
   #sectionslogan {
     height: 78px;
-    margin-top: -14px;
+    margin-top: -21px;
     font-family: "El Messiri", sans-serif;
     font-size: 75px;
     letter-spacing: 6px;
@@ -360,21 +362,21 @@
 
 #because {
   height: 93px;
-  margin-top: 146px;
-  font-family: "El Messiri", sans-serif;
-  font-size: 22px;
+  margin-top: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44px;
   text-align: left;
-  color: white;
+  color: gold;
   grid-row: 1/1;
+  z-index: 2;
 }
 
-#tune {
-  height: 203px;
-  margin-top: 278px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: white;
+#promo1 {
+  height: 486px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   grid-row: 1/1;
 }
 
@@ -385,20 +387,20 @@
   }
   #because {
     height: 93px;
-    margin-top: 217px;
-    font-family: "El Messiri", sans-serif;
-    font-size: 35px;
+    margin-top: 102px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
     text-align: left;
-    color: white;
+    color: gold;
     grid-row: 1/1;
+    z-index: 2;
   }
-  #tune {
-    height: 81px;
-    margin-top: 365px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    text-align: left;
-    color: white;
+  #promo1 {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     grid-row: 1/1;
   }
 }
@@ -409,37 +411,36 @@
   }
   #because {
     height: 178px;
-    margin-top: 195px;
-    font-family: "El Messiri", sans-serif;
-    font-size: 50px;
+    margin-top: 65px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 230px;
     text-align: left;
-    color: white;
-    grid-row: 1/1;
-  }
-  #tune {
-    height: 137px;
-    margin-top: 420px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 35px;
-    text-align: left;
-    color: white;
-    grid-row: 1/1;
+    color: gold;
+    z-index: 2;
   }
   #earbud1 {
-    max-width: 500%;
-    position: relative;
-    top: 50%;
-    left: 1100%;
+    max-width: 50%;
+    position: absolute;
+    top: 205%;
+    left: 65%;
     transform: translate(-50%, -50%);
     visibility: visible;
   }
   #earbud2 {
-    max-width: 300%;
-    position: relative;
-    top: 30%;
-    left: 100%;
+    max-width: 50%;
+    position: absolute;
+    top: 205%;
+    left: 60%;
     transform: translate(-50%, -50%);
     visibility: visible;
+  }
+  #promo1 {
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    grid-row: 1/1;
   }
 }
 #xray {
@@ -640,12 +641,17 @@
 }
 
 #comfort {
-  height: 100px;
-  margin-top: 30px;
+  margin-top: 63px;
+  font-family: "El Messiri", sans-serif;
+  color: white;
+  font-size: 27px;
 }
 
 #where {
-  height: 132px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 19px;
+  text-align: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -653,11 +659,16 @@
     height: 400px;
   }
   #comfort {
-    height: 69px;
-    margin-top: 102px;
+    margin-top: 100px;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-size: 33px;
   }
   #where {
-    height: 132px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: right;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -665,11 +676,16 @@
     height: 500px;
   }
   #comfort {
-    height: 96px;
     margin-top: 127px;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-size: 65px;
   }
   #where {
-    height: 176px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: right;
   }
 }
 #footer {
