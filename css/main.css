@@ -1,0 +1,1105 @@
+#banner {
+  width: 100%;
+  height: 59px;
+}
+
+#sale {
+  height: 30px;
+  margin-top: -1px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+
+#main-header {
+  width: 100%;
+  height: 75px;
+}
+
+#logo {
+  height: 49px;
+  margin-top: 8px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 30px;
+}
+
+#nav {
+  display: none;
+}
+
+#icons {
+  display: none;
+}
+
+#burger {
+  display: block;
+  height: 34px;
+}
+
+@media screen and (min-width: 768px) {
+  #banner {
+    height: 59px;
+  }
+  #sale {
+    height: 30px;
+    margin-top: 4px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0px;
+  }
+  #main-header {
+    height: 75px;
+  }
+  #logo {
+    height: 49px;
+    margin-top: 9px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 30px;
+  }
+  #nav {
+    display: block;
+    height: 27px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 12px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 45px;
+    font-family: "Montserrat", sans-serif;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  #icons {
+    display: block;
+  }
+  #shop {
+    height: 35px;
+  }
+  #burger {
+    display: none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #banner {
+    height: 59px;
+  }
+  #sale {
+    height: 30px;
+    margin-top: -2px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+    padding: 0px;
+  }
+  #main-header {
+    height: 75px;
+  }
+  #logo {
+    height: 55px;
+    margin-top: -10px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 65px;
+  }
+  #nav {
+    display: block;
+    height: 35px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 8px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 77px;
+    font-family: "Montserrat", sans-serif;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  nav a:hover {
+    color: gold;
+  }
+  #icons {
+    display: block;
+  }
+  #shop {
+    height: 35px;
+  }
+  #burger {
+    display: none;
+  }
+}
+#hero {
+  height: 595px;
+  padding: 0px;
+}
+
+#brand {
+  height: 85px;
+  margin-top: 127px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 83px;
+  color: white;
+  padding: 0px;
+  margin-left: 7px;
+  grid-row: 1/1;
+}
+
+#heroslogan {
+  height: 64px;
+  margin-top: 209px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding: 3px;
+  grid-row: 1/1;
+}
+
+#button {
+  height: 31px;
+  border-radius: 10px;
+  margin-top: 294px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 5px;
+  grid-row: 1/1;
+}
+
+#button a {
+  text-decoration: none;
+  color: black;
+}
+
+#heroimage {
+  height: 595px;
+  width: 100vw;
+  object-fit: cover;
+  grid-row: 1/1;
+}
+
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 600px;
+    padding: 0px;
+  }
+  #brand {
+    height: 91px;
+    margin-top: 179px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 100px;
+    padding: 0px;
+    grid-row: 1/1;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: 268px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 6px;
+    grid-row: 1/1;
+  }
+  #button {
+    height: 35px;
+    margin-top: 320px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    grid-row: 1/1;
+  }
+  #button a {
+    text-decoration: none;
+    color: black;
+  }
+  #button:hover {
+    background-color: #002916;
+  }
+  #heroimage {
+    height: 600px;
+    width: 100vw;
+    object-fit: cover;
+    grid-row: 1/1;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hero {
+    height: 800px;
+    background-size: 100% auto;
+    padding: 0px;
+  }
+  #brand {
+    height: 180px;
+    margin-top: 286px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 160px;
+    padding: 0px;
+    grid-row: 1/1;
+  }
+  #heroslogan {
+    height: 48px;
+    margin-top: 434px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 6px;
+    grid-row: 1/1;
+  }
+  #button {
+    height: 48px;
+    margin-top: 506px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding: 4px;
+    grid-row: 1/1;
+  }
+  #button a {
+    color: black;
+  }
+  #button:hover {
+    background-color: gold;
+  }
+  #heroimage {
+    height: 800px;
+    width: 100vw;
+    object-fit: cover;
+    grid-row: 1/1;
+  }
+}
+#slogan {
+  height: 50px;
+}
+
+#sectionslogan {
+  height: 68px;
+  margin-top: -4px;
+  font-family: "El Messiri", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 768px) {
+  #slogan {
+    height: 60px;
+  }
+  #sectionslogan {
+    height: 61px;
+    margin-top: -9px;
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (min-width: 1920px) {
+  #slogan {
+    height: 99px;
+  }
+  #sectionslogan {
+    height: 78px;
+    margin-top: -21px;
+    font-family: "El Messiri", sans-serif;
+    font-size: 75px;
+    letter-spacing: 6px;
+    color: rgb(255, 255, 255);
+  }
+}
+#scroll {
+  height: 800px;
+}
+
+#scrolltext {
+  margin-top: 390px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  #scroll {
+    height: 700px;
+  }
+  #scrolltext {
+    margin-top: 350px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #scroll {
+    height: 600px;
+  }
+  #scrolltext {
+    margin-top: 247px;
+    font-size: 30px;
+  }
+}
+#tunein {
+  height: 486px;
+  padding: 0px;
+}
+
+#because {
+  height: 93px;
+  margin-top: 100px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 44px;
+  text-align: left;
+  color: gold;
+  grid-row: 1/1;
+  z-index: 2;
+}
+
+#promo1 {
+  height: 486px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  grid-row: 1/1;
+}
+
+@media screen and (min-width: 768px) {
+  #tunein {
+    height: 500px;
+    padding: 0px;
+  }
+  #because {
+    height: 93px;
+    margin-top: 102px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 90px;
+    text-align: left;
+    color: gold;
+    grid-row: 1/1;
+    z-index: 2;
+  }
+  #promo1 {
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    grid-row: 1/1;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #tunein {
+    height: 600px;
+    padding: 0px;
+  }
+  #because {
+    height: 178px;
+    margin-top: 65px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 230px;
+    text-align: left;
+    color: gold;
+    z-index: 2;
+  }
+  #earbud1 {
+    max-width: 50%;
+    position: absolute;
+    top: 205%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
+  #earbud2 {
+    max-width: 50%;
+    position: absolute;
+    top: 205%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+  }
+  #promo1 {
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    grid-row: 1/1;
+  }
+}
+#xray {
+  height: 900px;
+}
+
+#xraytext {
+  margin-top: 400px;
+  font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  #xray {
+    height: 500px;
+  }
+  #xraytext {
+    margin-top: 260px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #xray {
+    height: 600px;
+  }
+  #xraytext {
+    margin-top: 307px;
+    font-size: 30px;
+  }
+}
+#gallery {
+  height: 750px;
+}
+
+.gall {
+  border-radius: 20px;
+  box-shadow: 0 4px 9px rgb(255, 255, 255);
+}
+
+#gall1 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall1 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+#gall2 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall2 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+#gall3 h2 {
+  font-family: "El Messiri", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#gall3 p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 33px;
+}
+
+@media screen and (min-width: 768px) {
+  #gallery {
+    height: 230px;
+  }
+  .gall {
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgb(255, 255, 255);
+  }
+  #gall1 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #gall2 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  #gall3 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #gall3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #gallery {
+    height: 390px;
+  }
+  .gall {
+    border-radius: 20px;
+    box-shadow: 0 4px 9px rgb(255, 255, 255);
+  }
+  #gall1 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  #gall2 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  #gall3 h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 45px;
+  }
+  #gall3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+#hotspot {
+  height: 900px;
+}
+
+#hotspottext {
+  margin-top: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  #hotspot {
+    height: 500px;
+  }
+  #hotspottext {
+    margin-top: 260px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #hotspot {
+    height: 600px;
+  }
+  #hotspottext {
+    margin-top: 307px;
+    font-size: 30px;
+  }
+}
+#experience {
+  height: 350px;
+}
+
+#comfort {
+  margin-top: 63px;
+  font-family: "El Messiri", sans-serif;
+  color: white;
+  font-size: 27px;
+}
+
+#where {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 19px;
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  #experience {
+    height: 400px;
+  }
+  #comfort {
+    margin-top: 100px;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-size: 33px;
+  }
+  #where {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #experience {
+    height: 500px;
+  }
+  #comfort {
+    margin-top: 127px;
+    font-family: "El Messiri", sans-serif;
+    color: white;
+    font-size: 65px;
+  }
+  #where {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: right;
+  }
+}
+#footer {
+  height: 660px;
+}
+
+#footerlogo {
+  font-size: 50px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  margin-top: 20px;
+}
+
+#footernav1 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+#footernav1 h2 {
+  font-size: 20px;
+}
+
+#footernav1 ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+#footernav1 ul li {
+  text-align: left;
+}
+
+#footernav1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footernav2 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+}
+
+#footernav2 h2 {
+  font-size: 15px;
+}
+
+#footernav2 ul {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 15px;
+}
+
+#footernav2 ul li {
+  text-align: left;
+}
+
+#footernav2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#footernav3 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+#footernav3 h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+#newsletter-form label {
+  font-size: 15px;
+}
+
+#newsletter-form input {
+  display: block;
+  border-radius: 10px;
+  width: 130px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#newsletter-form button {
+  border-radius: 10px;
+  width: 130px;
+  height: 35px;
+  color: black;
+}
+
+#rights {
+  height: 20px;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  #footer {
+    height: 404px;
+  }
+  #footerlogo {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: black;
+    margin-top: 10px;
+    font-size: 60px;
+  }
+  #footernav1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  }
+  #footernav1 h2 {
+    font-size: 15px;
+  }
+  #footernav1 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  #footernav1 ul li {
+    text-align: left;
+  }
+  #footernav1 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav1 ul li a:hover {
+    color: gold;
+  }
+  #footernav2 {
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  }
+  #footernav2 h2 {
+    font-size: 15px;
+  }
+  #footernav2 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  #footernav2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav3 {
+    margin-top: 10px;
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  #footernav3 h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  #newsletter-form label {
+    font-size: 15px;
+  }
+  #newsletter-form input {
+    display: block;
+    border-radius: 50px;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  #newsletter-form button {
+    border-radius: 10px;
+    width: 105px;
+    height: 30px;
+    color: black;
+  }
+  #newsletter-form input {
+    margin-top: 10px;
+  }
+  #rights {
+    height: 20px;
+    margin-top: 79px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #footer {
+    height: 360px;
+  }
+  #footerlogo {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: black;
+    margin-top: 70px;
+    font-size: 80px;
+  }
+  #footernav1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+  }
+  #footernav1 ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  #footernav1 ul li {
+    text-align: left;
+  }
+  #footernav1 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav1 ul li a:hover {
+    color: gold;
+  }
+  #footernav2 {
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+  }
+  #footernav2 ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  #footernav2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav2 ul li a:hover {
+    color: gold;
+  }
+  #footernav3 {
+    margin-top: 70px;
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  #footernav3 h2 {
+    margin-bottom: 10px;
+  }
+  #newsletter-form input {
+    display: block;
+    border-radius: 10px;
+    width: 286px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  #newsletter-form button {
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    color: black;
+  }
+  #newsletter-form button:hover {
+    background-color: gold;
+  }
+  #newsletter-form input {
+    margin-top: 10px;
+  }
+  #rights {
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+#about-us {
+  margin-bottom: 40px;
+}
+
+#founders section {
+  margin-bottom: 40px;
+}
+
+:not(:defined) > * {
+  display: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+model-viewer {
+  width: 100%;
+  height: 90%;
+  background-color: #ffffff;
+}
+
+.Hotspot {
+  background: #fff;
+  border-radius: 32px;
+  border: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 24px;
+  padding: 8px;
+  position: relative;
+  transition: opacity 0.3s;
+  width: 24px;
+}
+
+.Hotspot:not([data-visible]) {
+  background: transparent;
+  border: 4px solid #fff;
+  box-shadow: none;
+  height: 32px;
+  pointer-events: none;
+  width: 32px;
+}
+
+.Hotspot:focus {
+  border: 4px solid rgb(0, 128, 200);
+  height: 32px;
+  outline: none;
+  width: 32px;
+}
+
+.Hotspot > * {
+  opacity: 1;
+  transform: translateY(-50%);
+}
+
+.HotspotAnnotation {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+  font-family: Futura, Helvetica Neue, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  left: calc(100% + 1em);
+  max-width: 128px;
+  overflow-wrap: break-word;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 50%;
+  width: max-content;
+}
+
+.Hotspot:not([data-visible]) > * {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(calc(-50% + 4px));
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+#ar-button {
+  background-image: url(ar_icon.png);
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 12px 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  bottom: 16px;
+  padding: 0px 16px 0px 40px;
+  font-family: Roboto Regular, Helvetica Neue, sans-serif;
+  font-size: 14px;
+  color: #4285f4;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 18px;
+  border: 1px solid #DADCE0;
+}
+
+#ar-button:active {
+  background-color: #E8EAED;
+}
+
+#ar-button:focus {
+  outline: none;
+}
+
+#ar-button:focus-visible {
+  outline: 1px solid #4285f4;
+}
+
+@keyframes circle {
+  from {
+    transform: translateX(-50%) rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  to {
+    transform: translateX(-50%) rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+@keyframes elongate {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+model-viewer > #ar-prompt {
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  animation: elongate 2s infinite ease-in-out alternate;
+  display: none;
+}
+
+model-viewer[ar-status=session-started] > #ar-prompt {
+  display: block;
+}
+
+model-viewer > #ar-prompt > img {
+  animation: circle 4s linear infinite;
+}
