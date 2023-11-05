@@ -707,13 +707,83 @@
 
 @media screen and (min-width: 768px) {
   #footer {
-    height: 280px;
+    height: 404px;
   }
   #footerlogo {
-    height: 108px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: black;
+    margin-top: 10px;
+    font-size: 60px;
   }
-  #footernav {
-    height: 45px;
+  #footernav1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  }
+  #footernav1 h2 {
+    font-size: 15px;
+  }
+  #footernav1 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  #footernav1 ul li {
+    text-align: left;
+  }
+  #footernav1 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav1 ul li a:hover {
+    color: gold;
+  }
+  #footernav2 {
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+  }
+  #footernav2 h2 {
+    font-size: 15px;
+  }
+  #footernav2 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+  }
+  #footernav2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav3 {
+    margin-top: 10px;
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  #footernav3 h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  #newsletter-form label {
+    font-size: 15px;
+  }
+  #newsletter-form input {
+    display: block;
+    border-radius: 50px;
+    width: 170px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  #newsletter-form button {
+    border-radius: 10px;
+    width: 105px;
+    height: 30px;
+    color: black;
+  }
+  #newsletter-form input {
+    margin-top: 10px;
   }
   #rights {
     height: 20px;
@@ -722,17 +792,84 @@
 }
 @media screen and (min-width: 1920px) {
   #footer {
-    height: 430px;
+    height: 360px;
   }
   #footerlogo {
-    height: 134px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    color: black;
+    margin-top: 70px;
+    font-size: 80px;
   }
-  #footernav {
-    height: 57px;
+  #footernav1 {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+  }
+  #footernav1 ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  #footernav1 ul li {
+    text-align: left;
+  }
+  #footernav1 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav1 ul li a:hover {
+    color: gold;
+  }
+  #footernav2 {
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 70px;
+  }
+  #footernav2 ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  #footernav2 ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #footernav2 ul li a:hover {
+    color: gold;
+  }
+  #footernav3 {
+    margin-top: 70px;
+    grid-row: 1/1;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+  #footernav3 h2 {
+    margin-bottom: 10px;
+  }
+  #newsletter-form input {
+    display: block;
+    border-radius: 10px;
+    width: 286px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  #newsletter-form button {
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    color: black;
+  }
+  #newsletter-form button:hover {
+    background-color: gold;
+  }
+  #newsletter-form input {
+    margin-top: 10px;
   }
   #rights {
-    height: 57px;
-    margin-top: 178px;
+    margin-top: 60px;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
   }
 }
 #about-us {
