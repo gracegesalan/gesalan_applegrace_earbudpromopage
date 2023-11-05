@@ -1,6 +1,105 @@
 
 
 
+#footer {
+    height: 660px;
+}
+
+#footerlogo {
+    font-size: 35px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 20px;
+}
+
+#footernav1 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+#footernav1 h2 {
+    font-size: 20px;
+}
+
+#footernav1 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+#footernav1 ul li {
+    text-align: left;
+}
+
+#footernav1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#footernav2 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+#footernav2 h2 {
+    font-size: 15px;
+}
+
+#footernav2 ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 15px;
+}
+
+#footernav2 ul li {
+    text-align: left;
+}
+
+#footernav2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#footernav3 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footernav3 h2 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#newsletter-form label {
+    font-size: 15px;
+}
+
+#newsletter-form input {
+    display: block;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#newsletter-form button {
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    color: black;
+    
+}
+
+
+#rights {
+    height: 20px;
+    margin-top: 60px;
+}
+
+
+
 
 @media screen and (min-width:768px) {
     #footer {
