@@ -5,7 +5,13 @@
 
 #sale {
     height: 30px;
-    margin-top: -10px;
+    margin-top: -1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0px;
 }
 
 #main-header {
@@ -15,7 +21,9 @@
 
 #logo {
     height: 49px;
-    margin-top: -7px;
+    margin-top: 8px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;
 }
 
 #nav {
@@ -32,13 +40,20 @@
 }
 
 @media screen and (min-width:768px) {
+
     #banner {
-     height: 59px;
+        height: 59px;
     }
 
     #sale {
     height: 30px;
-    margin-top: -10px;
+    margin-top: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    padding: 0px;
     }
 
     #main-header {
@@ -47,7 +62,9 @@
 
     #logo {
         height: 49px;
-        margin-top: -5px;
+        margin-top: 9px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 30px;
     }
 
     #nav {
@@ -55,8 +72,32 @@
         height: 27px;
     }
 
+    nav ul {
+        list-style: none;
+        padding: 0px;
+        margin-top: 12px;
+    }
+    
+    nav li {
+        display: inline;
+        margin-right: 45px;
+        
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+       
+    }
+
     #icons {
         display: block;
+    }
+
+    #shop {
+        height: 35px;
     }
 
     #burger {
@@ -72,16 +113,25 @@
 
    #sale {
     height: 30px;
-    margin-top: -10px;
+    margin-top: -2px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+    padding: 0px;
    }
 
    #main-header {
     height: 75px;
+    
    }
 
    #logo {
     height: 55px;
     margin-top: -10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 65px;
    }
 
    #nav {
@@ -89,9 +139,38 @@
     height: 35px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin-top: 8px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 77px;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+   
+}
+
+nav a:hover {
+    color: gold;
+}
+
     #icons {
     display: block;
 }
+
+    #shop {
+        height: 35px;
+        
+    }
 
     #burger {
     display: none;

@@ -1,43 +1,114 @@
 
 #tunein {
     height: 486px;
+    padding: 0px;
 }
 
 #because {
     height: 93px;
-    margin-top: 81px;
+    margin-top: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 44px;
+    text-align: left;
+    color: gold;
+    grid-row: 1/1;
+    z-index: 2;
 }
 
-#tune {
-    height: 203px;
+#promo1 {
+    height: 486px;
+    
+    // width: 100vh;
+    // object-fit: cover;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    grid-row: 1/1;
 }
+
+
+
+
 
 @media screen and (min-width:768px) {
     #tunein {
         height: 500px;
+        padding: 0px;
     }
 
     #because {
         height: 93px;
-        margin-top: 217px;
+        margin-top: 102px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 90px;
+        text-align: left;
+        color: gold;
+        grid-row: 1/1;
+        z-index: 2;
     }
 
-    #tune {
-        height: 81px;
+    #promo1 {
+        height: 500px;
+        
+        // width: 100vh;
+        // object-fit: cover;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        grid-row: 1/1;
     }
 
 }
+
+
 @media screen and (min-width:1920px) {
     #tunein {
         height: 600px;
+        padding: 0px;
     }
 
     #because {
         height: 178px;
-        margin-top: 195px;
+        margin-top: 65px;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 230px;
+        text-align: left;
+        color: gold;
+        z-index: 2;
     }
 
-    #tune {
-        height: 137px;
+
+    #earbud1 {
+        max-width: 50%;
+        position: absolute;
+	    top: 205%;
+	    left: 65%;
+        transform: translate(-50%,-50%);
+	    visibility: visible;
+        
     }
+
+    #earbud2 {
+        max-width: 50%;
+        position: absolute;
+	    top: 205%;
+	    left: 60%;
+        transform: translate(-50%,-50%);
+	    visibility: visible;
+    }
+
+    #promo1 {
+        height: 600px;
+        
+        // width: 100vh;
+        // object-fit: cover;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        grid-row: 1/1;
+    }
+
 }

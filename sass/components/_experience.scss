@@ -1,0 +1,66 @@
+
+#experience {
+    height: 350px;
+    background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
+}
+
+#comfort {
+    // height: 100px;
+    margin-top: 63px;
+    font-family: 'El Messiri', sans-serif;
+    color: white;
+    font-size: 27px;
+}
+
+#where {
+    // height: 132px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 19px;
+    text-align: right;
+}
+
+@media screen and (min-width:768px) {
+    #experience {
+        height: 400px;
+        background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
+    }
+
+    #comfort {
+        // height: 69px;
+        margin-top: 100px;
+        font-family: 'El Messiri', sans-serif;
+        color: white;
+        font-size: 33px;
+    }
+
+    #where {
+        // height: 132px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 25px;
+        text-align: right;
+    }
+}
+@media screen and (min-width:1920px) {
+    #experience {
+        height: 500px;
+        background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
+    }
+
+    #comfort {
+        // height: 96px;
+        margin-top: 127px;
+        font-family: 'El Messiri', sans-serif;
+        color: white;
+        font-size: 65px;
+    }
+
+    #where {
+        // height: 176px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 40px;
+        text-align: right;
+    }
+}
