@@ -694,7 +694,7 @@
 }
 
 #footerlogo {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   margin-top: 20px;
 }
@@ -799,7 +799,9 @@
     text-align: left;
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
+
     color: white;
+
   }
   #footernav1 h2 {
     font-size: 15px;
@@ -885,8 +887,10 @@
   }
   #footerlogo {
     font-family: "Yanone Kaffeesatz", sans-serif;
+
     color: white;
     margin-top: 70px;
+n
     font-size: 80px;
   }
   #footernav1 {
