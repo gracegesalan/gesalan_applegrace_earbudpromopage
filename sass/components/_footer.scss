@@ -2,23 +2,27 @@
 
 
 #footer {
-    height: 660px;
+    height: 700px;
+    background-color: black;
 }
 
 #footerlogo {
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    margin-top: 20px;
+    margin-top: 60px;
+    color: white;
 }
 
 #footernav1 {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 20px;
+    margin-top: 60px;
+    color: white;
 }
 
 #footernav1 h2 {
     font-size: 20px;
+    color: white;
 }
 
 #footernav1 ul {
@@ -33,17 +37,19 @@
 
 #footernav1 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #footernav2 {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     margin-top: 10px;
+    color: white;
 }
 
 #footernav2 h2 {
     font-size: 15px;
+    color: white;
 }
 
 #footernav2 ul {
@@ -58,21 +64,24 @@
 
 #footernav2 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #footernav3 {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 #footernav3 h2 {
     margin-bottom: 10px;
     font-size: 15px;
+    color: white;
 }
 
 #newsletter-form label {
     font-size: 15px;
+    color: white;
 }
 
 #newsletter-form input {
@@ -96,6 +105,8 @@
 #rights {
     height: 20px;
     margin-top: 60px;
+    color: white;
+    text-align: center;
 }
 
 
