@@ -465,9 +465,43 @@
   #xray {
     height: 600px;
   }
-  #xraytext {
-    margin-top: 307px;
-    font-size: 30px;
+  #xrayview {
+    display: none;
+  }
+  #shell {
+    display: block;
+    max-width: 1920px;
+    border: solid 1px #666;
+  }
+  #imagecon {
+    position: relative;
+    max-width: 1920px;
+    height: 100vh;
+  }
+  #slideimage {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100vh;
+  }
+  #rightimage {
+    background: url(../images/earbud_xray.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: center center;
+  }
+  #leftimage {
+    background: url(../images/earbud_rendered.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 40%;
+    background-attachment: center center;
+  }
+  #dragimage {
+    background-color: #000000;
+    left: 40%;
+    width: 10px;
+    cursor: pointer;
   }
 }
 #gallery {
