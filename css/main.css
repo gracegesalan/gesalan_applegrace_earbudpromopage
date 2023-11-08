@@ -328,33 +328,26 @@
     color: rgb(255, 255, 255);
   }
 }
-#scroll {
-  height: 800px;
+#explode-view {
+  max-width: 100%;
 }
 
-#scrolltext {
-  margin-top: 390px;
-  font-size: 30px;
+.gsap-marker-end {
+  opacity: 0;
 }
 
-@media screen and (min-width: 768px) {
-  #scroll {
-    height: 700px;
-  }
-  #scrolltext {
-    margin-top: 350px;
-    font-size: 30px;
-  }
+.gsap-marker-start {
+  opacity: 0;
 }
-@media screen and (min-width: 1920px) {
-  #scroll {
-    height: 600px;
-  }
-  #scrolltext {
-    margin-top: 247px;
-    font-size: 30px;
-  }
+
+.gsap-marker-scroller-end {
+  opacity: 0;
 }
+
+.gsap-marker-scroller-start {
+  opacity: 0;
+}
+
 #tunein {
   height: 486px;
   padding: 0px;
