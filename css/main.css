@@ -674,6 +674,7 @@
 @media screen and (min-width: 1920px) {
   #experience {
     height: 500px;
+    background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
   }
   #comfort {
     margin-top: 127px;
@@ -786,10 +787,11 @@
 @media screen and (min-width: 768px) {
   #footer {
     height: 404px;
+    background-color: black;
   }
   #footerlogo {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    color: black;
+    color: white;
     margin-top: 10px;
     font-size: 60px;
   }
@@ -797,9 +799,11 @@
     text-align: left;
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
+    color: white;
   }
   #footernav1 h2 {
     font-size: 15px;
+    color: white;
   }
   #footernav1 ul {
     list-style: none;
@@ -811,7 +815,7 @@
   }
   #footernav1 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   #footernav1 ul li a:hover {
     color: gold;
@@ -821,9 +825,11 @@
     text-align: left;
     font-family: "Montserrat", sans-serif;
     margin-top: 10px;
+    color: white;
   }
   #footernav2 h2 {
     font-size: 15px;
+    color: white;
   }
   #footernav2 ul {
     list-style: none;
@@ -832,17 +838,19 @@
   }
   #footernav2 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   #footernav3 {
     margin-top: 10px;
     grid-row: 1/1;
     text-align: left;
     font-family: "Montserrat", sans-serif;
+    color: white;
   }
   #footernav3 h2 {
     margin-bottom: 10px;
     font-size: 15px;
+    color: white;
   }
   #newsletter-form label {
     font-size: 15px;
@@ -853,6 +861,7 @@
     width: 170px;
     height: 30px;
     margin-bottom: 10px;
+    color: white;
   }
   #newsletter-form button {
     border-radius: 10px;
@@ -865,16 +874,18 @@
   }
   #rights {
     height: 20px;
-    margin-top: 79px;
+    margin-top: 96px;
+    color: white;
   }
 }
 @media screen and (min-width: 1920px) {
   #footer {
-    height: 360px;
+    height: 440px;
+    background-color: black;
   }
   #footerlogo {
     font-family: "Yanone Kaffeesatz", sans-serif;
-    color: black;
+    color: white;
     margin-top: 70px;
     font-size: 80px;
   }
@@ -892,7 +903,7 @@
   }
   #footernav1 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   #footernav1 ul li a:hover {
     color: gold;
@@ -902,6 +913,7 @@
     text-align: left;
     font-family: "Montserrat", sans-serif;
     margin-top: 70px;
+    color: white;
   }
   #footernav2 ul {
     list-style: none;
@@ -909,7 +921,7 @@
   }
   #footernav2 ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   #footernav2 ul li a:hover {
     color: gold;
@@ -922,6 +934,7 @@
   }
   #footernav3 h2 {
     margin-bottom: 10px;
+    color: white;
   }
   #newsletter-form input {
     display: block;
@@ -929,6 +942,9 @@
     width: 286px;
     height: 35px;
     margin-bottom: 10px;
+  }
+  #newsletter-form label {
+    color: white;
   }
   #newsletter-form button {
     border-radius: 10px;
@@ -943,9 +959,9 @@
     margin-top: 10px;
   }
   #rights {
-    margin-top: 60px;
+    margin-top: 100px;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: white;
     font-size: 20px;
     text-align: center;
   }
