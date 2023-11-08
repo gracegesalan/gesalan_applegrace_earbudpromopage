@@ -638,6 +638,7 @@
 }
 #experience {
   height: 350px;
+  background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
 }
 
 #comfort {
@@ -657,6 +658,7 @@
 @media screen and (min-width: 768px) {
   #experience {
     height: 400px;
+    background: linear-gradient(to right, rgb(68, 133, 151), rgb(58, 69, 95));
   }
   #comfort {
     margin-top: 100px;
