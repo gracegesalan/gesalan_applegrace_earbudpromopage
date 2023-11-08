@@ -436,18 +436,14 @@
     grid-row: 1/1;
   }
 }
-#xraytext {
-  margin-top: 400px;
-  font-size: 30px;
+#xray {
+  padding: 0px;
 }
 
-@media screen and (min-width: 768px) {
-  #xraytext {
-    margin-top: 260px;
-    font-size: 30px;
-  }
-}
 @media screen and (min-width: 1920px) {
+  #xray {
+    padding: 0px;
+  }
   #xrayview {
     display: none;
   }
@@ -469,19 +465,15 @@
   }
   .rightimage {
     background: url(../images/earbud_xray.jpg) no-repeat;
-    background-size: contain;
     width: 100%;
     height: 100%;
-    background-position: center center;
-    background-attachment: fixed;
+    object-fit: cover;
   }
   .leftimage {
     background: url(../images/earbud_rendered.jpg) no-repeat;
-    background-size: contain;
-    background-position: center center;
+    object-fit: cover;
     width: 50%;
     height: 100%;
-    background-attachment: fixed;
   }
   .dragimage {
     background-color: #000000;
