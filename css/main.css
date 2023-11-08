@@ -477,6 +477,7 @@
 .gall {
   border-radius: 20px;
   box-shadow: 0 4px 9px rgb(255, 255, 255);
+  background-color: rgb(49, 99, 113);
 }
 
 #gall1 h2 {
@@ -484,6 +485,7 @@
   font-size: 30px;
   text-align: center;
   margin-top: 5px;
+  color: white;
 }
 
 #gall1 p {
@@ -491,6 +493,7 @@
   font-size: 20px;
   text-align: center;
   margin-top: 33px;
+  color: white;
 }
 
 #gall2 h2 {
@@ -498,6 +501,7 @@
   font-size: 30px;
   text-align: center;
   margin-top: 5px;
+  color: white;
 }
 
 #gall2 p {
@@ -505,6 +509,7 @@
   font-size: 20px;
   text-align: center;
   margin-top: 33px;
+  color: white;
 }
 
 #gall3 h2 {
@@ -512,6 +517,7 @@
   font-size: 30px;
   text-align: center;
   margin-top: 5px;
+  color: white;
 }
 
 #gall3 p {
@@ -519,6 +525,7 @@
   font-size: 20px;
   text-align: center;
   margin-top: 33px;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -528,42 +535,50 @@
   .gall {
     border-radius: 20px;
     box-shadow: 0 4px 9px rgb(255, 255, 255);
+    background-color: rgb(49, 99, 113);
+    margin-top: -2px;
   }
   #gall1 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 15px;
+    color: white;
   }
   #gall1 p {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
+    color: white;
   }
   #gall2 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 15px;
+    color: white;
   }
   #gall2 p {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
+    color: white;
   }
   #gall3 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 15px;
+    color: white;
   }
   #gall3 p {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     text-align: center;
     margin-top: 10px;
+    color: white;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -573,42 +588,49 @@
   .gall {
     border-radius: 20px;
     box-shadow: 0 4px 9px rgb(255, 255, 255);
+    background-color: rgb(49, 99, 113);
   }
   #gall1 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 50px;
     text-align: center;
     margin-top: 45px;
+    color: white;
   }
   #gall1 p {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 25px;
+    color: white;
   }
   #gall2 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 50px;
     text-align: center;
     margin-top: 45px;
+    color: white;
   }
   #gall2 p {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 25px;
+    color: white;
   }
   #gall3 h2 {
     font-family: "El Messiri", sans-serif;
     font-size: 50px;
     text-align: center;
     margin-top: 45px;
+    color: white;
   }
   #gall3 p {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
     margin-top: 25px;
+    color: white;
   }
 }
 #hotspot {
