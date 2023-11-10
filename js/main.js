@@ -1,8 +1,9 @@
 (() => {
 
+  // burger
   let button = document.querySelector("#button");
   let burgerCon = document.querySelector("#burger-con");
-
+  // burger^
 
   // scroll
     const canvas = document.querySelector("#explode-view");
@@ -88,15 +89,17 @@
   ]
   // hotspot^
 
+  // burger
   function hambergerMenu() {
     burgerCon.classList.toggle("slide-toggle");
     button.classList.toggle("expanded");
+    console.log("button clicked")
   }
-  
+  // burger^
+
+
+
 //  xray 
-
-
- 
   function onDown() {
     dragging = true;
     console.log("set to true")
@@ -162,7 +165,9 @@
     gsap.to(selected, 1, { autoAlpha: 0 });
   }
 
+  // burger
   button.addEventListener("click", hambergerMenu, false);
+  // burger^
 
   // xray
   drag.addEventListener('mousedown', onDown);
