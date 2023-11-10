@@ -53,10 +53,42 @@
   let max = imagecon.offsetWidth;
   // xray ^
   
+  // hotspot
   const model = document.querySelector("#model");
   const hotspots = document.querySelectorAll(".Hotspot");
+  const infoBoxes = [
+    {
+      title: 'Speaker',
+      text: 'The speaker delivers crystal-clear sound with immersive depth, ensuring every note and voice is heard in stunning clarity.',
+      image: 'images/hotspot_xray.jpg'
+    },
+    {
+      title: 'Earpiece',
+      text: 'The earpiece provides a comfortable and secure fit, offering ultra-soft silicone tip for superior noise isolation and all-day comfort.',
+      image: 'images/hotspot_xray.jpg'
+    },
+    {
+      title: 'Saba Brand',
+      text: 'Saba is a symbol of innovation, quality, and style. This is where cutting-edge technology meets timeless design, redefining your audio experience.',
+      image: 'images/hotspot_xray.jpg'
+    },
+    {
+      title: 'Front',
+      text: 'The front section of the Saba earbuds showcases a sleek, modern design, setting the tone for a harmonious blend of form and function, where aesthetics meet functionality.',
+      image: 'images/hotspot_xray.jpg'
+    },
+    {
+      title: 'Back',
+      text: 'The back portion of Saba earbuds is designed with elegance and practicality in mind, ensuring a comfortable and stylish fit',
+      image: 'images/hotspot_xray.jpg'
+    },
+  ]
+  // hotspot^
   
 //  xray 
+
+
+ 
   function onDown() {
     dragging = true;
     console.log("set to true")
@@ -90,6 +122,27 @@
     });
   }
 
+  function loadInfo() {
+    infoBoxes.forEach((infoBoxes, index) => {
+    let selected = document.querySelector (`#hotspot-${index+1}`);
+
+    const titleElement = document.createElement('h2');
+    titleElement.textContent = infoBoxes.title;
+
+    const textElement = document.createElement('p');
+    textContent = infoBoxes.text;
+
+    const imgElement = document.createElement('img');
+    imgElement.src = infoBoxes.image;
+
+    selected.appendChild(imgElement);
+    selected.appendChild(titleElement);
+    selected.appendChild(textElement);
+    });
+  }
+
+  loadInfo();
+
   function showInfo() {
     let selected = document.querySelector(`#${this.slot}`);
     gsap.to(selected, 1, { autoAlpha: 1 });
@@ -108,6 +161,7 @@
   // xray ^
 
   model.addEventListener("load", modelLoaded);
+
 
   hotspots.forEach(function (hotspot){
     hotspot.addEventListener("mouseover", showInfo);
