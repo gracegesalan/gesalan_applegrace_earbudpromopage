@@ -396,6 +396,7 @@
 
 #promo1 {
   height: 486px;
+  object-fit: cover;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -440,22 +441,6 @@
     text-align: left;
     color: gold;
     z-index: 2;
-  }
-  #earbud1 {
-    max-width: 50%;
-    position: absolute;
-    top: 205%;
-    left: 65%;
-    transform: translate(-50%, -50%);
-    visibility: visible;
-  }
-  #earbud2 {
-    max-width: 50%;
-    position: absolute;
-    top: 205%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    visibility: visible;
   }
   #promo1 {
     height: 600px;
