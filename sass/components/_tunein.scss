@@ -19,7 +19,7 @@
     height: 486px;
     
     // width: 100vh;
-    // object-fit: cover;
+    object-fit: cover;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -69,6 +69,8 @@
         padding: 0px;
     }
 
+   
+
     #because {
         height: 178px;
         margin-top: 65px;
@@ -80,24 +82,7 @@
     }
 
 
-    #earbud1 {
-        max-width: 50%;
-        position: absolute;
-	    top: 205%;
-	    left: 65%;
-        transform: translate(-50%,-50%);
-	    visibility: visible;
-        
-    }
-
-    #earbud2 {
-        max-width: 50%;
-        position: absolute;
-	    top: 205%;
-	    left: 60%;
-        transform: translate(-50%,-50%);
-	    visibility: visible;
-    }
+ 
 
     #promo1 {
         height: 600px;
