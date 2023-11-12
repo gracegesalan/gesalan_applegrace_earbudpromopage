@@ -1,8 +1,10 @@
 (() => {
 
   // burger
-  let button = document.querySelector("#button");
-  let burgerCon = document.querySelector("#burger-con");
+
+
+  let Button = document.querySelector("#button");
+  let BurgerCon = document.querySelector("#burger-con");
   // burger^
 
   // scroll
@@ -91,9 +93,9 @@
 
   // burger
   function hambergerMenu() {
-    burgerCon.classList.toggle("slide-toggle");
-    button.classList.toggle("expanded");
-    console.log("button clicked")
+    BurgerCon.classList.toggle("slide-toggle");
+    Button.classList.toggle("expanded");
+    // console.log("button clicked")
   }
   // burger^
 
@@ -166,7 +168,7 @@
   }
 
   // burger
-  button.addEventListener("click", hambergerMenu, false);
+  Button.addEventListener("click", hambergerMenu, false);
   // burger^
 
   // xray
