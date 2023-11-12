@@ -41,7 +41,7 @@
   border: 0;
 }
 
-#nav #button.expanded {
+#button.expanded {
   transform: rotate(90deg);
 }
 
@@ -49,6 +49,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
   display: none;
+}
+
+#burger-con.slide-toggle {
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,6 +166,9 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+  }
+  #burger-menu {
+    display: block;
   }
   nav a:hover {
     color: gold;
